@@ -3,3 +3,7 @@ the following are the most important git commands.
 2.git add
 3.git commit -m
 4. git commit origin master
+5.git init
+6.git status
+7.git config --global user.name
+8git config -- global user.email
