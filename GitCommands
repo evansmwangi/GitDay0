@@ -1,4 +1,5 @@
 the following are the most important git commands.
 1. git clone https://github.com/evansmwangi/GitDay0.git
 2.git add
-
+3.git commit -m
+4. git commit origin master
