@@ -6,5 +6,5 @@ def prime_number(n):
 			if x%y==0:
 				isPrime==False
 				break
-			if isPrime==True
+			if isPrime==True:
 				print(x)
