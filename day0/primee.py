@@ -1,10 +1,20 @@
-def prime_number(n):
-	n=int(n)
-	for x in range (2,n+1):
-		isPrime=True
-		for y in range (2,int(x**0.5)+1):
-			if x%y==0:
-				isPrime==False
-				break
-			if isPrime==True:
-				print(x)
+from  math import sqrt
+def PrimeChecker(integer)
+intended_value=eval(input('list prime numbers upto this value:')
+    integer = 2
+    if intended_value is not int:
+    return('enter integer value')
+    while integer<=intended_value:
+        is_Prime=True
+        try_factor=2
+        root=sqrt(integer)
+        while try_factor<=root:
+            if integer%try_factor==0:
+                is_Prime=False;
+                break
+                try_factor+=1
+                if is_Prime:
+        return (integer, end=' ')
+    integer +=1
+ print ()
+    
