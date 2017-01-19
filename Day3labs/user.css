@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(255,255,255);
+   }
+h1 {
+         font-family:Arial;
+         color:blue;
+       }
+p {font-size:75%;
+
+}
+#nav{
+	margin:1%;
+	background-color:rgb(240,250,255);
+	padding: 10px 0px 5px 0px;
+	text-decoration: underline;
+	font-size: 25px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+li {
+	display:inline;
+	padding: 25px
+	
+}
+p{
+	font-size: 15px;
+	font-family: Arial;
+}
+li>a:hover{
+background-color:white;
+text-transform: uppercase;
+text-decoration: underline;
+}
+input {
+	padding-left: 10px;
+}
+.right {
+	float:right;
+	margin: 0px 0px 10px 10px;
+	width: 150px;
+}
+#footer{
+	background-color:gray;
+	padding: 10px;
+  text-align: center;
+}
